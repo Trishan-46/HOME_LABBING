@@ -1,4 +1,27 @@
-# HOME_LABBING
+# 🏠 Home Lab — Cybersecurity Practice Environment
+ 
+## About This Lab
+ 
+This is my personal cybersecurity home lab built for hands-on learning, penetration testing practice, and vulnerability research. As a final-year BCA student exploring the field of cybersecurity, I set up this lab to go beyond theory and get real practical experience in a safe, controlled environment.
+ 
+The lab runs **Kali Linux** inside **VirtualBox** on my local machine, connected to **TryHackMe** for guided CTF-style rooms and **VulHub** for practising real-world CVE exploitation using Docker-based vulnerable applications.
+ 
+### 🎯 Goals
+- Build practical skills in ethical hacking and penetration testing
+- Practice reconnaissance, exploitation, and privilege escalation techniques
+- Understand real CVEs by exploiting them in a safe local environment
+- Prepare for certifications like CEH, eJPT, and eventually OSCP
+### 🛠️ Lab Components
+ 
+| Tool | Role |
+|---|---|
+| VirtualBox | Hypervisor — runs Kali Linux in an isolated VM |
+| Kali Linux | Attacker machine with a full suite of pentesting tools |
+| TryHackMe | Cloud-based guided rooms connected via OpenVPN |
+| VulHub | Docker-based local vulnerable app environments for CVE practice |
+ 
+---
+ 
 # 🔐 Connecting Kali Linux to TryHackMe
  
 A step-by-step guide to connecting your Kali Linux machine to TryHackMe using OpenVPN.
